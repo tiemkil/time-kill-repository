@@ -1,10 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
+    <a id="aaa">查看数据</a>
+    <h1>My Form</h1>
+    <form action="/submit" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br>
+      <input type="submit" value="Submit">
+    </form>
+    <div class="time">
+        <div >
+            <h1 ><a href="temp.html"><span>测试页面</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="temp.html"><img src="static/assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        </div>
+        <ul>
+            <li><a href="pic/test.jpg">图片1</a></li>
+            <li><span>nodeid</span></li>
+        </ul>
+        <div><img src="pic/test.jpg" alt="aa" height="200"></div>
+    </div>
+    <input type="text"> <input type="text">
+    <script type="text/javascript">
+        var choice1 = "pic/test.jpg";
+        var choice2 = "222";
+        let myVariable = "Hello World!";
+    </script>
+    <script type="text/javascript">
+        document.getElementById("aaa").href=choice1;
+    </script>
 
 </body>
 </html>
